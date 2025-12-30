@@ -1,5 +1,3 @@
-# network-traffic-analysis-firewall
-Auditing active network endpoints (TCP/UDP) and implementing Firewall Access Control Lists (ACLs) to block unauthorized services
 
 # Network Traffic Analysis & Firewall Access Control
 
@@ -26,7 +24,7 @@ I deployed **Sysinternals TCPView** to map active TCP/UDP endpoints. I filtered 
 * **Anomaly Detected:** A `python.exe` process was found listening on **TCP Port 8080**.
 * **Risk Assessment:** The service was active and capable of accepting external connections from mobile clients, representing an unmanaged security risk (Shadow IT).
 
-![tCPView Analysis](tcpview.png)
+![TCPView Analysis](tcpview.png)
 *Figure 1: TCPView dashboard revealing the unauthorized Python web server on Port 8080.*
 
 ---
@@ -41,7 +39,7 @@ I configured a **Windows Defender Firewall Inbound Rule** to strictly deny ingre
 * **Action:** Block the connection
 * **Scope:** All Network Profiles (Domain, Private, Public)
 
-![firewall Configuration](firewall.png)
+![Firewall Configuration](firewall.png)
 *Figure 2: Configuring the Inbound Rule to drop all packets directed at Port 8080.*
 
 ---
