@@ -41,7 +41,7 @@ I configured a **Windows Defender Firewall Inbound Rule** to strictly deny ingre
 * **Action:** Block the connection
 * **Scope:** All Network Profiles (Domain, Private, Public)
 
-![Firewall Configuration](Screenshot%202025-12-21%20025120.png)
+![Firewall Configuration](firewall.png)
 *Figure 2: Configuring the Inbound Rule to drop all packets directed at Port 8080.*
 
 ---
