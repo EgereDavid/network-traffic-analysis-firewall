@@ -24,7 +24,7 @@ I deployed **Sysinternals TCPView** to map active TCP/UDP endpoints. I filtered 
 * **Anomaly Detected:** A `python.exe` process was found listening on **TCP Port 8080**.
 * **Risk Assessment:** The service was active and capable of accepting external connections from mobile clients, representing an unmanaged security risk (Shadow IT).
 
-![TCPView Analysis](tcpview.png)
+<img width="1290" height="259" alt="tcpview" src="https://github.com/user-attachments/assets/76bca2eb-1f60-44ae-ac77-2562af69932b" />
 *Figure 1: TCPView dashboard revealing the unauthorized Python web server on Port 8080.*
 
 ---
@@ -39,7 +39,7 @@ I configured a **Windows Defender Firewall Inbound Rule** to strictly deny ingre
 * **Action:** Block the connection
 * **Scope:** All Network Profiles (Domain, Private, Public)
 
-![Firewall Configuration](firewall.png)
+<img width="872" height="271" alt="firewall" src="https://github.com/user-attachments/assets/517a1baf-76f2-407a-8f9a-b2b9703c5a72" />
 *Figure 2: Configuring the Inbound Rule to drop all packets directed at Port 8080.*
 
 ---
