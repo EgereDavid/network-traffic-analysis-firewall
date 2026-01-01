@@ -24,7 +24,7 @@ I deployed **Sysinternals TCPView** to map active TCP/UDP endpoints. I filtered 
 * **Anomaly Detected:** A `python.exe` process was found listening on **TCP Port 8080**.
 * **Risk Assessment:** The service was active and capable of accepting external connections from mobile clients, representing an unmanaged security risk (Shadow IT).
 
-<!-- Uploading "tcpview.png"... -->
+<img width="1290" height="259" alt="Image" src="https://github.com/user-attachments/assets/7a3c86b3-0e96-4d02-b490-42f0c33e3dbc" />
 *Figure 1: TCPView dashboard revealing the unauthorized Python web server on Port 8080.*
 
 ---
